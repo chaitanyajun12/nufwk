@@ -1,0 +1,24 @@
+{
+  "name": "reactmin",
+  "version": "1.0.0",
+  "description": "Set up react with bare minimum scripts to get going",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel .\\src\\ --watch --out-dir .\\bin\\ | node server.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Krishna Chaitanya M",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-react-jsx": "^7.3.0"
+  }
+}
